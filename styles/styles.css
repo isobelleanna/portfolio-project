@@ -11,6 +11,23 @@ body {
   font-family: "Inter";
 }
 
+.intro {
+  padding: 40px;
+}
+.intro__h2 {
+  color: lightblue;
+}
+.intro__p {
+  font-size: 70px;
+  font-weight: 1000;
+}
+.intro__button {
+  background-color: #BAE8E8;
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+}
+
 @media screen and (max-width: 768px) {
   /* //For smaller screens */
 }/*# sourceMappingURL=styles.css.map */
