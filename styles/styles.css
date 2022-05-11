@@ -48,6 +48,16 @@ body {
   background-color: #E3F6F5;
 }
 
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 @media screen and (max-width: 768px) {
   /* //For smaller screens */
 }/*# sourceMappingURL=styles.css.map */
