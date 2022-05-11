@@ -4,3 +4,13 @@ body {
     color: $primary-font-colour;
     font-family: $primary-font;
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    &__about-me {
+        font-size: 50px;
+    }
+}
