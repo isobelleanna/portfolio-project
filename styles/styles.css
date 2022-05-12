@@ -169,10 +169,6 @@ body {
   grid-area: label--spring;
 }
 
-.card__row2 {
-  display: none;
-}
-
 @media screen and (min-width: 454px) and (max-width: 768px) {
   /* ipad screen */
   .header__nav--symbol {
@@ -194,6 +190,17 @@ body {
   /* laptop screen */
   .header__nav--symbol {
     display: none;
+  }
+
+  .header__nav--bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__nav--button {
+    display: block;
   }
 
   .tech-grid {

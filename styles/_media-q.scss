@@ -1,11 +1,5 @@
 @use "mixins" as *;
 
-
-.card__row2 {
-        display: none;
-    }
-
-
 @media screen and (min-width: 454px) and (max-width: 768px){
   /* ipad screen */
   .header__nav--symbol {
@@ -27,6 +21,15 @@
   .header__nav--symbol {
           display: none;
       }
+    .header__nav--bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__nav--button {
+        display: block;
+    }
     .tech-grid {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
