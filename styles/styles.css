@@ -27,11 +27,17 @@ body {
   font-size: 50px;
 }
 
-.about-me__img {
-  width: 85%;
+.about-me {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.about-me__img {
+  width: 45vh;
+}
+.about-me__p {
+  padding: 1vh;
 }
 
 .intro {

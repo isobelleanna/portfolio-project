@@ -15,8 +15,11 @@ body {
 }
 
 .about-me {
+    @include flexCenter();
+    flex-direction: column;
     &__img {
-        width: 85%;
-        @include flexCenter();
+        width: 45vh;
+    }&__p {
+        padding: 1vh;
     }
 }
