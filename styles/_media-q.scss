@@ -1,25 +1,63 @@
 @use "mixins" as *;
 
-@media screen and (max-width: 454px) {
-    /* phone screen */
-    .header__nav--button {
+
+.card__row2 {
         display: none;
     }
-}
+
+
 @media screen and (min-width: 454px) and (max-width: 768px){
   /* ipad screen */
-  .header {
-      &__nav--symbol {
+  .header__nav--symbol {
           display: none;
       }
+    .projects {
+       display: grid;
+    }
+    .card {
+        width: 60vh;
+        &__row2 {
+        display: none;
+    }
+    }
+}
 
-}
-}
 @media screen and (min-width: 768px) {
   /* laptop screen */ 
-  .header {
-      &__nav--symbol {
+  .header__nav--symbol {
           display: none;
       }
+    .tech-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+   grid-template-areas:
+        "icon--git icon--html  icon--css icon--javascript icon--scss icon--bem icon--react icon--java icon--spring"
+        "label--git label--html label--css label--javascript label--scss label--bem label--react label--java label--spring";
+    gap: 1rem;
+    width: 70%;
+    margin-inline: auto;}
+    .projects {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-areas:
+        "card__1 card__2 card__3"
+        "card__4 card__5 card__6";
+    }
+    .card {
+        width: 40vh;
+        &__1 {
+        grid-area: card__1;
+    }&__2 {
+        grid-area: card__2;
+    }&__3 {
+        grid-area: card__3;
+    }&__4 {
+        grid-area: card__4;
+    }&__5 {
+        grid-area: card__5;
+    }&__6 {
+        grid-area: card__6;
+    }
+    }
   }
-}
+  
