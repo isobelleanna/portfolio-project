@@ -18,6 +18,7 @@
 
 .grid__item {
   @include flexCenter();
+  text-align: center;
 }
 
 .grid__icon {

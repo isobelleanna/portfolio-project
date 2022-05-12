@@ -1,0 +1,12 @@
+@use "mixins" as *;
+
+@media only screen and (max-device-width: 354px) {
+    /* phone screen */
+}
+@media screen and (min-device-width: 354px) and (max-device-width: 768px){
+  /* ipad screen */
+  
+}
+@media screen and (min-width: 768px) {
+  /* laptop screen */ }
+

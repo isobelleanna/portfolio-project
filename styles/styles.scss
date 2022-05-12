@@ -3,9 +3,4 @@
 @use "intro";
 @use "footer";
 @use "tech-grid";
-
-
-@media screen and (max-width: 768px){
-  /* //ipad screen smaller screens */
-  
-}
+@use "media-q";

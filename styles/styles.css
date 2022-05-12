@@ -61,6 +61,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .grid__icon {
@@ -140,6 +141,12 @@ body {
   grid-area: label--spring;
 }
 
-@media screen and (max-width: 768px) {
-  /* //ipad screen smaller screens */
+@media only screen and (max-device-width: 354px) {
+  /* phone screen */
+}
+@media screen and (min-device-width: 354px) and (max-device-width: 768px) {
+  /* ipad screen */
+}
+@media screen and (min-width: 768px) {
+  /* laptop screen */
 }/*# sourceMappingURL=styles.css.map */
