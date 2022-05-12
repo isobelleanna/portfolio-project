@@ -31,7 +31,7 @@ body {
   padding: 40px;
 }
 .intro__h2 {
-  color: #E3F6F5;
+  color: #8C9CB1;
 }
 .intro__p {
   font-size: 70px;
@@ -50,14 +50,9 @@ body {
 
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.tech-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media screen and (max-width: 768px) {
-  /* //For smaller screens */
+  /* //ipad screen smaller screens */
 }/*# sourceMappingURL=styles.css.map */
