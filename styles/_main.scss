@@ -1,0 +1,26 @@
+@use "variables" as *;
+@use "./mixins" as *;
+
+main {
+    border: 3px solid green;
+}
+
+.card {
+    padding: 2vh;
+    border: 1px solid red;
+    &__img {
+        width: 99%;
+        display: flex;
+        justify-self: center;
+    }
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    &__h5 {
+        padding: 1vh;
+    }&__i {
+        padding: 1vh;
+    }
+}

@@ -1,4 +1,12 @@
 @use "variables" as *;
+@use "./mixins" as *;
+
 .footer {
     background-color: $tertiary-colour;
+    padding: 5vh;
+    &__icons {
+        @include flexCenter();
+    }&__h4 {
+        @include flexCenter();
+    }
 }

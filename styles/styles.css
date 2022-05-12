@@ -27,6 +27,13 @@ body {
   font-size: 50px;
 }
 
+.about-me__img {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .intro {
   padding: 40px;
 }
@@ -46,6 +53,17 @@ body {
 
 .footer {
   background-color: #BAE8E8;
+  padding: 5vh;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech-grid {
@@ -149,4 +167,28 @@ body {
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
+}
+main {
+  border: 3px solid green;
+}
+
+.card {
+  padding: 2vh;
+  border: 1px solid red;
+}
+.card__img {
+  width: 99%;
+  display: flex;
+  justify-self: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+.links__h5 {
+  padding: 1vh;
+}
+.links__i {
+  padding: 1vh;
 }/*# sourceMappingURL=styles.css.map */
