@@ -1,13 +1,10 @@
 @use "variables" as *;
 @use "./mixins" as *;
 
-main {
-    border: 3px solid green;
-}
+
 
 .card {
     padding: 2vh;
-    border: 1px solid red;
     &__img {
         width: 99%;
         display: flex;

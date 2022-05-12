@@ -2,7 +2,7 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 .header__nav {
@@ -42,6 +42,7 @@ body {
 
 .intro {
   padding: 40px;
+  background-color: #E3F6F5;
 }
 .intro__h2 {
   color: #8C9CB1;
@@ -165,22 +166,26 @@ body {
   grid-area: label--spring;
 }
 
-@media only screen and (max-device-width: 354px) {
+@media screen and (max-width: 454px) {
   /* phone screen */
+  .header__nav--button {
+    display: none;
+  }
 }
-@media screen and (min-device-width: 354px) and (max-device-width: 768px) {
+@media screen and (min-width: 454px) and (max-width: 768px) {
   /* ipad screen */
+  .header__nav--symbol {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
+  .header__nav--symbol {
+    display: none;
+  }
 }
-main {
-  border: 3px solid green;
-}
-
 .card {
   padding: 2vh;
-  border: 1px solid red;
 }
 .card__img {
   width: 99%;
