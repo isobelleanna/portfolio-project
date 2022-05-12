@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "./mixins" as *;
 
 .tech-grid {
   display: grid;
@@ -15,75 +16,84 @@
     margin-inline: auto;
 }
 
-grid__icon--git {
+.grid__item {
+  @include flexCenter();
+}
+
+.grid__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.grid__icon--git {
   grid-area: icon--git;
 }
 
-grid__label--git {
+.grid__label--git {
   grid-area: label--git;
 }
 
-grid__icon--html {
+.grid__icon--html {
   grid-area: icon--html;
 }
 
-grid__label--html {
+.grid__label--html {
   grid-area: label--html;
 }
 
-grid__icon--css {
+.grid__icon--css {
   grid-area: icon--css;
 }
 
-grid__label--css {
+.grid__label--css {
   grid-area: label--css;
 }
 
-grid__icon--javascript {
+.grid__icon--javascript {
   grid-area: icon--javascript;
 }
 
-grid__label--javascript {
+.grid__label--javascript {
   grid-area: label--javascript;
 }
 
-grid__icon--scss {
+.grid__icon--scss {
   grid-area: icon--scss;
 }
 
-grid__label--scss {
+.grid__label--scss {
   grid-area: label--scss;
 }
 
-grid__icon--bem {
+.grid__icon--bem {
   grid-area: icon--bem;
 }
 
-grid__label--bem {
+.grid__label--bem {
   grid-area: label--bem;
 }
 
-grid__icon--java {
+.grid__icon--java {
   grid-area: icon--java;
 }
 
-grid__label--java {
+.grid__label--java {
   grid-area: label--java;
 }
 
-grid__icon--react {
+.grid__icon--react {
   grid-area: icon--react;
 }
 
-grid__label--react {
+.grid__label--react {
   grid-area: label--react;
 }
 
-grid__icon--spring {
+.grid__icon--spring {
   grid-area: icon--spring;
 }
 
-grid__label--spring {
+.grid__label--spring {
   grid-area: label--spring;
 }
 
