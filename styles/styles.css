@@ -31,7 +31,7 @@ body {
   padding: 40px;
 }
 .intro__h2 {
-  color: lightblue;
+  color: #E3F6F5;
 }
 .intro__p {
   font-size: 70px;
@@ -45,7 +45,7 @@ body {
 }
 
 .footer {
-  background-color: #E3F6F5;
+  background-color: #BAE8E8;
 }
 
 .tech-grid {

@@ -3,12 +3,12 @@
 .intro {
     padding: 40px;
     &__h2 {
-        color: lightblue;
+        color: $secondary-colour;
     }&__p {
         font-size: 70px;
         font-weight: 1000;
     }&__button {
-        background-color: $secondary-color;
+        background-color: $tertiary-colour;
         width: 100%;
         padding: 20px;
         font-size: 25px;
