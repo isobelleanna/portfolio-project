@@ -43,16 +43,17 @@
        @include flexCenter(); 
     }&__p {
     @include flexCenter();
-    text-align: center
+    @include centerText();
     }&__button {
         @include flexCenter();
-        width: 50%;
+        width: 30%;
         
     }
     }
     .techical-skill__p {
         display: flex;
         @include flexCenter();
+        @include centerText();
     }
     .tech-grid {
   display: grid;

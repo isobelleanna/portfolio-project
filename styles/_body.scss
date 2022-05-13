@@ -8,6 +8,7 @@ body {
 
 .title {
     @include flexCenter();
+    @include centerText();
     font-size: 35px;
     &__about-me {
         font-size: 50px;

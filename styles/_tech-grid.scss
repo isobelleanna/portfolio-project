@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.grid__label {
+  @include centerText();
+}
+
 .grid__icon {
   width: 70px;
   height: 70px;
