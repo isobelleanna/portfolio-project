@@ -59,6 +59,7 @@ body {
 }
 .about-me__p {
   padding: 1vh;
+  color: #8C9CB1;
 }
 
 .intro {
@@ -256,12 +257,18 @@ body {
     width: 30%;
   }
 
-  .techical-skill__p {
+  .techical-skill {
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .techical-skill__p {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #8C9CB1;
+    width: 40%;
   }
 
   .tech-grid {
@@ -354,6 +361,12 @@ body {
 }
 .card__row2 {
   display: none;
+}
+.card__h4 {
+  color: #2C698D;
+}
+.card__p {
+  color: #8C9CB1;
 }
 
 .links {
