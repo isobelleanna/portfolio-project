@@ -18,10 +18,12 @@ body {
 .techical-skill__p {
     display: none;
 }
+.container {
+     @include flexCenter();
+    flex-direction: column;
+}
 
 .about-me {
-    @include flexCenter();
-    flex-direction: column;
     &__img {
         width: 45vh;
     }&__p {

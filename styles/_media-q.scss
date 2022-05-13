@@ -64,6 +64,10 @@
         gap: 1rem;
         width: 70%;
         margin-inline: auto;}
+
+    main {
+        @include flexCenter();
+    }
     .projects {
        display: grid;
        grid-template-columns: repeat(3, 1fr);
@@ -94,9 +98,10 @@
         grid-area: card__6;
     }
     }
+    
     .container {  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+        padding: 20px;
+  grid-template-columns: 2fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   gap: 0px 0px;
@@ -114,6 +119,10 @@
 .about-me__p2 { grid-area: about-me__p2; }
 
 .about-me__img { grid-area: about-me__img; }
-
+.title {
+    &__about-me {
+        justify-content: flex-start;
+    }
+}
   }
   

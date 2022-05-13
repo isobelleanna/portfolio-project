@@ -47,12 +47,13 @@ body {
   display: none;
 }
 
-.about-me {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .about-me__img {
   width: 45vh;
 }
@@ -272,6 +273,12 @@ body {
     margin-inline: auto;
   }
 
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -308,8 +315,8 @@ body {
 
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    grid-template-columns: 2fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
@@ -331,6 +338,10 @@ body {
 
   .about-me__img {
     grid-area: about-me__img;
+  }
+
+  .title__about-me {
+    justify-content: flex-start;
   }
 }
 .card {
