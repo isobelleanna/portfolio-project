@@ -32,6 +32,23 @@
     }
     .header__nav--button {
         display: block;
+        &--active {
+            display: block;
+        }
+    }
+    .intro {
+    @include flexCenter();
+    flex-direction: column;
+    &__h2 {
+       @include flexCenter(); 
+    }&__p {
+    @include flexCenter();
+    text-align: center
+    }&__button {
+        @include flexCenter();
+        width: 50%;
+        
+    }
     }
     .techical-skill__p {
         display: flex;
@@ -53,9 +70,7 @@
         "card__1 card__2 card__3"
         "card__4 card__5 card__6";
     }
-    .card__row2 {
-        display: block;
-        }
+
     .card {
         width: 40vh;
         &__row2 {
@@ -68,10 +83,13 @@
     }&__3 {
         grid-area: card__3;
     }&__4 {
+        display: block;
         grid-area: card__4;
     }&__5 {
+        display: block;
         grid-area: card__5;
     }&__6 {
+        display: block;
         grid-area: card__6;
     }
     }

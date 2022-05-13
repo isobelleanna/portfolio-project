@@ -24,6 +24,7 @@
   background-color: #BAE8E8;
   border-radius: 8px;
   padding: 10px;
+  display: none;
 }
 
 body {
@@ -221,6 +222,33 @@ body {
   .header__nav--button {
     display: block;
   }
+  .header__nav--button--active {
+    display: block;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro__h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro__p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .intro__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
 
   .techical-skill__p {
     display: flex;
@@ -244,10 +272,6 @@ body {
     grid-template-areas: "card__1 card__2 card__3" "card__4 card__5 card__6";
   }
 
-  .card__row2 {
-    display: block;
-  }
-
   .card {
     width: 40vh;
   }
@@ -264,12 +288,15 @@ body {
     grid-area: card__3;
   }
   .card__4 {
+    display: block;
     grid-area: card__4;
   }
   .card__5 {
+    display: block;
     grid-area: card__5;
   }
   .card__6 {
+    display: block;
     grid-area: card__6;
   }
 }
