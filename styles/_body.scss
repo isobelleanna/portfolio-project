@@ -14,6 +14,10 @@ body {
     }
 }
 
+.techical-skill__p {
+    display: none;
+}
+
 .about-me {
     @include flexCenter();
     flex-direction: column;

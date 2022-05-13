@@ -11,5 +11,17 @@
         padding-left: 20px;
     }&__nav--button {
         display: none;
+        border: none;
+        background-color: $white-colour;
+        color: $quinary-colour;
+        padding: 10px;
+        margin: 10px;
+        &--active {
+            border: 1px solid $primary-colour;
+            background-color: $tertiary-colour;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
     }
 }

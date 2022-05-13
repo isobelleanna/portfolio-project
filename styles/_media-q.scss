@@ -18,6 +18,9 @@
 
 @media screen and (min-width: 768px) {
   /* laptop screen */ 
+  .card__row2 {
+        display: block;
+        }
   .header__nav--symbol {
           display: none;
       }
@@ -29,6 +32,10 @@
     }
     .header__nav--button {
         display: block;
+    }
+    .techical-skill__p {
+        display: flex;
+        @include flexCenter();
     }
     .tech-grid {
   display: grid;
@@ -46,8 +53,14 @@
         "card__1 card__2 card__3"
         "card__4 card__5 card__6";
     }
+    .card__row2 {
+        display: block;
+        }
     .card {
         width: 40vh;
+        &__row2 {
+            display: block;
+        }
         &__1 {
         grid-area: card__1;
     }&__2 {
