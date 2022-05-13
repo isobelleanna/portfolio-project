@@ -93,8 +93,8 @@ body {
 }
 
 .grid__icon {
-  width: 20px;
-  height: 20px;
+  width: 70px;
+  height: 70px;
 }
 
 .grid__icon--git {
@@ -261,4 +261,10 @@ body {
 }
 .links__i {
   padding: 1vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */
