@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 .tech-grid {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "icon--git icon--html  icon--css" "label--git label--html label--css" "icon--javascript icon--scss icon--bem" "label--javascript label--scss label--bem" "icon--react icon--java icon--spring" "label--react label--java label--spring";
@@ -16,14 +18,14 @@
 }
 
 .grid__label {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   text-align: center;
 }
 
 .grid__icon {
-  width: 70px;
-  height: 70px;
+  width: 10vh;
+  height: 10vh;
 }
 
 .grid__icon--git {

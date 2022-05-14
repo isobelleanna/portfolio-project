@@ -11,7 +11,7 @@ body {
   text-align: center;
   padding: 1vh;
   margin: 1vh;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   font-size: 35px;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .techical-skill__p {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
@@ -39,18 +39,14 @@ body {
 }
 
 .about-me {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
 }
 .about-me__img {
-  padding: 1vh;
-  margin: 1vh;
   width: 45vh;
 }
 .about-me__p {
-  padding: 1vh;
-  margin: 1vh;
   color: #8C9CB1;
 }

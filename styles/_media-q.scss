@@ -6,15 +6,109 @@
   .header__nav--symbol {
           display: none;
       }
+    .header__nav--bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__nav--button {
+        display: block;
+        &--active {
+            display: block;
+        }
+    }
+    .intro {
+    @include flexCenter();
+    flex-direction: column;
+    &__h2 {
+       @include flexCenter(); 
+    }&__p {
+    @include flexCenter();
+    @include centerText();
+    }&__button {
+        @include flexCenter();
+        width: 30%;
+        
+    }
+    }
+    .techical-skill{
+        @include flexCenter();
+    &__p {
+        @include flexCenter();
+        @include centerText();
+        color: $quinary-colour;
+        width: 70%;
+
+    }
+}
+    .tech-grid {
+        gap: 1rem;
+        width: 30%;
+        margin-inline: auto;}
+
+    main {
+        @include flexCenter();
+    }
     .projects {
        display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-areas:
+        "card__1 card__2"
+        "card__3 card__4 "
+        "card__5 card__6";
     }
     .card {
-        width: 60vh;
+        width: 40vh;
         &__row2 {
-        display: none;
+            display: block;
+        }
+        &__1 {
+        grid-area: card__1;
+    }&__2 {
+        grid-area: card__2;
+    }&__3 {
+        grid-area: card__3;
+    }&__4 {
+        display: block;
+        grid-area: card__4;
+    }&__5 {
+        display: block;
+        grid-area: card__5;
+    }&__6 {
+        display: block;
+        grid-area: card__6;
     }
     }
+
+    
+    
+    .container {  display: grid;
+        padding: 15vh;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title__about-me about-me__img"
+    "about-me__p about-me__img"
+    "about-me__p2 about-me__img";
+}
+
+.title__about-me { grid-area: title__about-me;
+font-size: 40px; }
+
+.about-me__p { grid-area: about-me__p; }
+
+.about-me__p2 { grid-area: about-me__p2; }
+
+.about-me__img { grid-area: about-me__img; }
+.title {
+    &__about-me {
+        justify-content: flex-start;
+    }
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -105,7 +199,7 @@
     
     
     .container {  display: grid;
-        padding: 20px;
+        padding: 15vh;
   grid-template-columns: 2fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;

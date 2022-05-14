@@ -2,6 +2,7 @@
 @use "./mixins" as *;
 
 .tech-grid {
+  @include verticalPadding();
   display: grid;
   grid-template-columns: repeat(3, 1fr);
    grid-template-areas:
@@ -27,8 +28,8 @@
 }
 
 .grid__icon {
-  width: 70px;
-  height: 70px;
+  width: 10vh;
+  height: 10vh;
 }
 
 .grid__icon--git {
