@@ -6,7 +6,13 @@
     padding: 5vh;
     &__icons {
         @include flexCenter();
+        @include paddingMargin();
     }&__h4 {
         @include flexCenter();
+        @include paddingMargin();
+    }&__img {
+        @include paddingMargin();
+        height: 7vh;
+        width: 7vh;
     }
 }

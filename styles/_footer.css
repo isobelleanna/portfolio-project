@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.footer {
+  background-color: #BAE8E8;
+  padding: 5vh;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 1vh;
+}
+.footer__h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 1vh;
+}
+.footer__img {
+  padding: 1vh;
+  margin: 1vh;
+  height: 7vh;
+  width: 7vh;
+}

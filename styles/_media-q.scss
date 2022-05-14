@@ -19,9 +19,7 @@
 
 @media screen and (min-width: 768px) {
   /* laptop screen */ 
-  .card__row2 {
-        display: block;
-        }
+  
   .header__nav--symbol {
           display: none;
       }
@@ -81,7 +79,6 @@
         "card__1 card__2 card__3"
         "card__4 card__5 card__6";
     }
-
     .card {
         width: 40vh;
         &__row2 {
@@ -104,6 +101,8 @@
         grid-area: card__6;
     }
     }
+
+    
     
     .container {  display: grid;
         padding: 20px;

@@ -1,14 +1,23 @@
 @use "variables" as *;
+@use "./mixins" as *;
 
 .intro {
+    @include paddingMargin();
+    @include verticalPadding();
     padding: 40px;
     background-color: $secondary-colour;
     &__h2 {
+        @include verticalPadding();
+        @include paddingMargin();
         color: $quinary-colour;
     }&__p {
+        @include verticalPadding();
+        @include paddingMargin();
         font-size: 70px;
         font-weight: 1000;
     }&__button {
+        @include verticalPadding();
+        @include paddingMargin();
         background-color: $tertiary-colour;
         width: 100%;
         padding: 20px;

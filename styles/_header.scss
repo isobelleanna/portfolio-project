@@ -1,14 +1,17 @@
 @use "variables" as *;
+@use "./mixins" as *;
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
+    @include paddingMargin();
+    @include verticalPadding();
     &__nav {
-        padding: 20px;
+        @include paddingMargin();
     }&__h1 {
-        padding-left: 20px;
+        @include paddingMargin();
     }&__nav--button {
         display: none;
         border: none;

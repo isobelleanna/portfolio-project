@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.card {
+  padding: 2vh;
+  /*&__4 {
+      display: none;
+  }&__5 {
+      display: none;
+  }&__6 {
+      display: none;
+  }*/
+}
+.card__img {
+  width: 99%;
+  display: flex;
+  justify-self: center;
+}
+.card__h4 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  color: #2C698D;
+}
+.card__h2 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.card__p {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  color: #8C9CB1;
+}
+
+.links {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: flex;
+  align-items: center;
+}
+.links__h5 {
+  padding-right: 1vh;
+}
+.links__i {
+  padding-right: 1vh;
+}

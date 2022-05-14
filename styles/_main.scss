@@ -9,21 +9,32 @@
         width: 99%;
         display: flex;
         justify-self: center;
-    }&__row2 {
-        display: none;
-    }&__h4 {
-        color: $quaternary-colour;
-    }&__p {
-        color: $quinary-colour;
     }
+    &__h4 {
+        @include verticalPadding();
+        color: $quaternary-colour;
+    }&__h2 {
+        @include verticalPadding();
+    }
+    &__p {
+        @include verticalPadding();
+        color: $quinary-colour;
+    }/*&__4 {
+        display: none;
+    }&__5 {
+        display: none;
+    }&__6 {
+        display: none;
+    }*/
 }
 
 .links {
+    @include verticalPadding();
     display: flex;
     align-items: center;
     &__h5 {
-        padding: 1vh;
+        padding-right: 1vh
     }&__i {
-        padding: 1vh;
+        padding-right: 1vh;
     }
 }
