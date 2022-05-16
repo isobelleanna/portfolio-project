@@ -200,6 +200,9 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-content: center;
+    &__img--cv {
+        display: none;
+    }
 }
   }
   

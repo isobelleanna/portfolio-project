@@ -493,6 +493,9 @@ body {
     justify-content: space-between;
     align-content: center;
   }
+  .footer__img--cv {
+    display: none;
+  }
 }
 .card {
   padding: 2vh;
