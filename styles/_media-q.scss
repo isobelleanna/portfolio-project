@@ -185,9 +185,15 @@
 
 .title__about-me { grid-area: title__about-me; }
 
-.about-me__p { grid-area: about-me__p; }
+.about-me__p { 
+    grid-area: about-me__p;
+    padding-right: 7vh; 
+}
 
-.about-me__p2 { grid-area: about-me__p2; }
+.about-me__p2 { 
+    grid-area: about-me__p2;
+    padding-right: 7vh;
+ }
 
 .about-me__img { grid-area: about-me__img; }
 .title {

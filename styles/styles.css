@@ -475,10 +475,12 @@ body {
 
   .about-me__p {
     grid-area: about-me__p;
+    padding-right: 7vh;
   }
 
   .about-me__p2 {
     grid-area: about-me__p2;
+    padding-right: 7vh;
   }
 
   .about-me__img {
