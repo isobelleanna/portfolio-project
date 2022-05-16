@@ -10,7 +10,7 @@
     }&__h2 {
         @include flexCenter();
         @include paddingMargin();
-        size: 1em;
+        font-size: 3vh;
     }&__img {
         @include paddingMargin();
         height: 6vh;

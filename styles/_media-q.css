@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @media screen and (min-width: 454px) and (max-width: 768px) {
   /* ipad screen */
+  .header__img {
+    display: none;
+  }
   .header__nav--symbol {
     display: none;
   }
-
   .header__nav--bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-
   .header__nav--button {
     display: block;
   }
@@ -105,17 +106,18 @@
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
+  .header__img {
+    display: none;
+  }
   .header__nav--symbol {
     display: none;
   }
-
   .header__nav--bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-
   .header__nav--button {
     display: block;
   }

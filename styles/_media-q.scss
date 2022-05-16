@@ -3,21 +3,23 @@
 
 @media screen and (min-width: 454px) and (max-width: 768px){
   /* ipad screen */
-  .header__nav--symbol {
+  .header {
+      &__img {
           display: none;
-      }
-    .header__nav--bar {
+      }&__nav--symbol {
+          display: none;
+      }&__nav--bar {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    }
-    .header__nav--button {
+    }&__nav--button {
         display: block;
         &--active {
             display: block;
         }
     }
+  }
     .intro {
     @include flexCenter();
     flex-direction: column;
@@ -85,22 +87,26 @@
 
 @media screen and (min-width: 768px) {
   /* laptop screen */ 
-  
-  .header__nav--symbol {
+  .header {
+      &__img {
           display: none;
-      }
-    .header__nav--bar {
+      }&__nav--symbol {
+          display: none;
+      }&__nav--bar {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    }
-    .header__nav--button {
+    }&__nav--button {
         display: block;
         &--active {
             display: block;
         }
     }
+  }
+  
+    
+    
     .intro {
     @include flexCenter();
     flex-direction: column;

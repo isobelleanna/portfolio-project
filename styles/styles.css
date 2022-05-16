@@ -136,7 +136,7 @@ body {
   align-items: center;
   padding: 1vh;
   margin: 1vh;
-  size: 1em;
+  font-size: 3vh;
 }
 .footer__img {
   padding: 1vh;
@@ -249,17 +249,18 @@ body {
 
 @media screen and (min-width: 454px) and (max-width: 768px) {
   /* ipad screen */
+  .header__img {
+    display: none;
+  }
   .header__nav--symbol {
     display: none;
   }
-
   .header__nav--bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-
   .header__nav--button {
     display: block;
   }
@@ -353,17 +354,18 @@ body {
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
+  .header__img {
+    display: none;
+  }
   .header__nav--symbol {
     display: none;
   }
-
   .header__nav--bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-
   .header__nav--button {
     display: block;
   }
