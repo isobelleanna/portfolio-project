@@ -195,5 +195,11 @@
         justify-content: flex-start;
     }
 }
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+}
   }
   
