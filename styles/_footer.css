@@ -10,12 +10,13 @@
   padding: 1vh;
   margin: 1vh;
 }
-.footer__h4 {
+.footer__h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1vh;
   margin: 1vh;
+  size: 1em;
 }
 .footer__img {
   padding: 1vh;

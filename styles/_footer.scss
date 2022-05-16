@@ -7,9 +7,10 @@
     &__icons {
         @include flexCenter();
         @include paddingMargin();
-    }&__h4 {
+    }&__h2 {
         @include flexCenter();
         @include paddingMargin();
+        size: 1em;
     }&__img {
         @include paddingMargin();
         height: 6vh;
