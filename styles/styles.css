@@ -154,6 +154,7 @@ body {
   gap: 1rem;
   width: 70%;
   margin-inline: auto;
+  place-items: center;
 }
 
 .grid__item {
@@ -306,7 +307,7 @@ body {
 
   .tech-grid {
     gap: 1rem;
-    width: 30%;
+    width: 50%;
     margin-inline: auto;
   }
 
