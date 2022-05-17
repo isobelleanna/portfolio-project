@@ -2,20 +2,20 @@
 .intro {
   padding: 1vh;
   margin: 1vh;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 40px;
   background-color: #E3F6F5;
 }
 .intro__h2 {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
   color: #8C9CB1;
 }
 .intro__p {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
@@ -23,7 +23,7 @@
   font-weight: 1000;
 }
 .intro__button {
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
   padding: 1vh;
   margin: 1vh;
@@ -31,4 +31,6 @@
   width: 100%;
   padding: 20px;
   font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 10px #8C9CB1;
 }

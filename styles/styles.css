@@ -126,6 +126,8 @@ body {
   width: 100%;
   padding: 20px;
   font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 10px #8C9CB1;
 }
 
 .footer {
