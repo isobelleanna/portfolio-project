@@ -8,6 +8,9 @@
     align-items: center;
     @include paddingMargin();
     @include verticalPadding();
+    &__h1 {
+        font-size: 1em;
+    }
     &__img-container {
         display: flex;
         align-items: center;

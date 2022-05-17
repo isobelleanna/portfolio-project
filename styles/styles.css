@@ -9,6 +9,9 @@
   padding-top: 2vh;
   padding-bottom: 1vh;
 }
+.header__h1 {
+  font-size: 1em;
+}
 .header__img-container {
   display: flex;
   align-items: center;
@@ -360,9 +363,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
-  .header__logo-container {
-    padding-left: 11vh;
-  }
   .header__img {
     display: none;
   }
