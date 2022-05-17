@@ -2,12 +2,17 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1vh;
   margin: 1vh;
-  padding-top: 1vh;
+  padding-top: 2vh;
   padding-bottom: 1vh;
+}
+.header__img-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .header__nav {
   padding: 1vh;
@@ -16,6 +21,7 @@
 .header__h1 {
   padding: 1vh;
   margin: 1vh;
+  justify-content: flex-start;
 }
 .header__nav--button {
   display: none;

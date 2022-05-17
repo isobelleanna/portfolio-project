@@ -4,14 +4,20 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     @include paddingMargin();
     @include verticalPadding();
+    &__img-container {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
     &__nav {
         @include paddingMargin();
     }&__h1 {
         @include paddingMargin();
+        justify-content: flex-start;
     }&__nav--button {
         display: none;
         border: none;

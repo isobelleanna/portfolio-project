@@ -106,6 +106,9 @@
 }
 @media screen and (min-width: 768px) {
   /* laptop screen */
+  .header__logo-container {
+    padding-left: 11vh;
+  }
   .header__img {
     display: none;
   }
