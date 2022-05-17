@@ -255,3 +255,14 @@
     display: none;
   }
 }
+@media screen and (max-width: 454px) {
+  .card__4 {
+    display: none;
+  }
+  .card__5 {
+    display: none;
+  }
+  .card__6 {
+    display: none;
+  }
+}

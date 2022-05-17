@@ -218,3 +218,14 @@
 }
   }
   
+@media screen and (max-width: 454px){
+    .card {
+        &__4 {
+        display: none;
+    }&__5 {
+        display: none;
+    }&__6 {
+        display: none;
+    }
+    }
+}
