@@ -11,11 +11,6 @@
     &__h1 {
         font-size: 1em;
     }
-    &__img-container {
-        display: flex;
-        align-items: center;
-        justify-content:flex-start;
-    }
     &__nav {
         @include paddingMargin();
     }&__h1 {

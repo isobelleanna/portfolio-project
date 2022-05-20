@@ -1,12 +1,10 @@
 @use "mixins" as *;
 @use "variables" as *;
 
-@media screen and (min-width: 454px) and (max-width: 768px){
+@media screen and (min-width: 454px) and (max-width: 830px){
   /* ipad screen */
   .header {
-      &__img {
-          display: none;
-      }&__nav--symbol {
+      &__nav--symbol {
           display: none;
       }&__nav--bar {
         display: flex;
@@ -61,7 +59,7 @@
         "card__5 card__6";
     }
     .card {
-        width: 40vh;
+        width: 30vh;
         &__row2 {
             display: block;
         }
@@ -85,12 +83,10 @@
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 830px) {
   /* laptop screen */ 
   .header {
-      &__img {
-          display: none;
-      }&__nav--symbol {
+      &__nav--symbol {
           display: none;
       }&__nav--bar {
         display: flex;
