@@ -21,6 +21,7 @@ body {
     @include verticalPadding();
     @include paddingMargin();
     display: none;
+    font-family: $secondary-font;
 }
 .container {
     @include verticalPadding();
@@ -36,5 +37,6 @@ body {
         width: 45vh;
     }&__p {
         color: $quinary-colour;
+        font-family: $secondary-font;
     }
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .header {
   display: flex;
   flex-direction: row;
@@ -63,6 +64,7 @@ body {
   padding: 1vh;
   margin: 1vh;
   display: none;
+  font-family: "Fira Code", monospace;
 }
 
 .container {
@@ -87,6 +89,7 @@ body {
 }
 .about-me__p {
   color: #707070;
+  font-family: "Fira Code", monospace;
 }
 
 .intro {
@@ -152,6 +155,7 @@ body {
 }
 
 .tech-grid {
+  font-family: "Fira Code", monospace;
   padding-top: 2vh;
   padding-bottom: 1vh;
   display: grid;
@@ -516,6 +520,7 @@ body {
 }
 .card {
   padding: 2vh;
+  font-family: "Fira Code", monospace;
   /*&__4 {
       display: none;
   }&__5 {

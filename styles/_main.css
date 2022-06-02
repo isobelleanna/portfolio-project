@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+.card {
+  padding: 2vh;
+  font-family: "Fira Code", monospace;
+  /*&__4 {
+      display: none;
+  }&__5 {
+      display: none;
+  }&__6 {
+      display: none;
+  }*/
+}
+.card__img {
+  width: 99%;
+  display: flex;
+  justify-self: center;
+}
+.card__h4 {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  color: #7460E1;
+}
+.card__h2 {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
+.card__p {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  color: #707070;
+}
+
+.links {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  display: flex;
+  align-items: center;
+}
+.links__h5 {
+  padding-right: 1vh;
+}
+.links__i {
+  padding-right: 1vh;
+}
